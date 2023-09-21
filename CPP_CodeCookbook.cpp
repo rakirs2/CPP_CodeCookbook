@@ -2,11 +2,17 @@
 //
 
 #include <iostream>
+#define LIMIT 5
+#define CONCAT OTHER
+#define OTHER 6
 
 int main()
 {
     std::cout << "Hello World!\n";
+    std::cout << LIMIT;
+    std::cout << CONCAT;
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu

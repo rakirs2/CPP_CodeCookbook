@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP_CodeCookbook", "CPP_CodeCookbook.vcxproj", "{E7C36A5A-0E1A-4CD7-A00E-2E290A5F695C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicMacros", "CPP_CodeCookbook.vcxproj", "{E7C36A5A-0E1A-4CD7-A00E-2E290A5F695C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MacroConcatenation", "MacroConcatenation\MacroConcatenation.vcxproj", "{96C58AD8-4365-4F3D-B15A-97C5877F822A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MacroFunctions", "MacroFunctions\MacroFunctions.vcxproj", "{1AA9143A-3F98-41A9-BF89-79A369FD737A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{E7C36A5A-0E1A-4CD7-A00E-2E290A5F695C}.Release|x64.Build.0 = Release|x64
 		{E7C36A5A-0E1A-4CD7-A00E-2E290A5F695C}.Release|x86.ActiveCfg = Release|Win32
 		{E7C36A5A-0E1A-4CD7-A00E-2E290A5F695C}.Release|x86.Build.0 = Release|Win32
+		{96C58AD8-4365-4F3D-B15A-97C5877F822A}.Debug|x64.ActiveCfg = Debug|x64
+		{96C58AD8-4365-4F3D-B15A-97C5877F822A}.Debug|x64.Build.0 = Debug|x64
+		{96C58AD8-4365-4F3D-B15A-97C5877F822A}.Debug|x86.ActiveCfg = Debug|Win32
+		{96C58AD8-4365-4F3D-B15A-97C5877F822A}.Debug|x86.Build.0 = Debug|Win32
+		{96C58AD8-4365-4F3D-B15A-97C5877F822A}.Release|x64.ActiveCfg = Release|x64
+		{96C58AD8-4365-4F3D-B15A-97C5877F822A}.Release|x64.Build.0 = Release|x64
+		{96C58AD8-4365-4F3D-B15A-97C5877F822A}.Release|x86.ActiveCfg = Release|Win32
+		{96C58AD8-4365-4F3D-B15A-97C5877F822A}.Release|x86.Build.0 = Release|Win32
+		{1AA9143A-3F98-41A9-BF89-79A369FD737A}.Debug|x64.ActiveCfg = Debug|x64
+		{1AA9143A-3F98-41A9-BF89-79A369FD737A}.Debug|x64.Build.0 = Debug|x64
+		{1AA9143A-3F98-41A9-BF89-79A369FD737A}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AA9143A-3F98-41A9-BF89-79A369FD737A}.Debug|x86.Build.0 = Debug|Win32
+		{1AA9143A-3F98-41A9-BF89-79A369FD737A}.Release|x64.ActiveCfg = Release|x64
+		{1AA9143A-3F98-41A9-BF89-79A369FD737A}.Release|x64.Build.0 = Release|x64
+		{1AA9143A-3F98-41A9-BF89-79A369FD737A}.Release|x86.ActiveCfg = Release|Win32
+		{1AA9143A-3F98-41A9-BF89-79A369FD737A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
